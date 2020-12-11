@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247CF4522583F008004ED5F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247CF4512583F008004ED5F3 /* AppDelegate.swift */; };
+		247CF4542583F008004ED5F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247CF4532583F008004ED5F3 /* SceneDelegate.swift */; };
+		247CF4562583F008004ED5F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247CF4552583F008004ED5F3 /* ViewController.swift */; };
+		247CF4592583F008004ED5F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247CF4572583F008004ED5F3 /* Main.storyboard */; };
+		247CF45B2583F00B004ED5F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247CF45A2583F00B004ED5F3 /* Assets.xcassets */; };
+		247CF45E2583F00B004ED5F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247CF45C2583F00B004ED5F3 /* LaunchScreen.storyboard */; };
+		247CF4692583F00C004ED5F3 /* Bottle_animationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247CF4682583F00C004ED5F3 /* Bottle_animationTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		247CF4652583F00C004ED5F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247CF4462583F008004ED5F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 247CF44D2583F008004ED5F3;
+			remoteInfo = "Bottle animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		247CF44E2583F008004ED5F3 /* Bottle animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bottle animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		247CF4512583F008004ED5F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		247CF4532583F008004ED5F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		247CF4552583F008004ED5F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		247CF4582583F008004ED5F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		247CF45A2583F00B004ED5F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		247CF45D2583F00B004ED5F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		247CF45F2583F00B004ED5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247CF4642583F00C004ED5F3 /* Bottle animationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bottle animationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		247CF4682583F00C004ED5F3 /* Bottle_animationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottle_animationTests.swift; sourceTree = "<group>"; };
+		247CF46A2583F00C004ED5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247CF44B2583F008004ED5F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247CF4612583F00C004ED5F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247CF4452583F008004ED5F3 = {
+			isa = PBXGroup;
+			children = (
+				247CF4502583F008004ED5F3 /* Bottle animation */,
+				247CF4672583F00C004ED5F3 /* Bottle animationTests */,
+				247CF44F2583F008004ED5F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		247CF44F2583F008004ED5F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				247CF44E2583F008004ED5F3 /* Bottle animation.app */,
+				247CF4642583F00C004ED5F3 /* Bottle animationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247CF4502583F008004ED5F3 /* Bottle animation */ = {
+			isa = PBXGroup;
+			children = (
+				247CF4512583F008004ED5F3 /* AppDelegate.swift */,
+				247CF4532583F008004ED5F3 /* SceneDelegate.swift */,
+				247CF4552583F008004ED5F3 /* ViewController.swift */,
+				247CF4572583F008004ED5F3 /* Main.storyboard */,
+				247CF45A2583F00B004ED5F3 /* Assets.xcassets */,
+				247CF45C2583F00B004ED5F3 /* LaunchScreen.storyboard */,
+				247CF45F2583F00B004ED5F3 /* Info.plist */,
+			);
+			path = "Bottle animation";
+			sourceTree = "<group>";
+		};
+		247CF4672583F00C004ED5F3 /* Bottle animationTests */ = {
+			isa = PBXGroup;
+			children = (
+				247CF4682583F00C004ED5F3 /* Bottle_animationTests.swift */,
+				247CF46A2583F00C004ED5F3 /* Info.plist */,
+			);
+			path = "Bottle animationTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		247CF44D2583F008004ED5F3 /* Bottle animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247CF46D2583F00C004ED5F3 /* Build configuration list for PBXNativeTarget "Bottle animation" */;
+			buildPhases = (
+				247CF44A2583F008004ED5F3 /* Sources */,
+				247CF44B2583F008004ED5F3 /* Frameworks */,
+				247CF44C2583F008004ED5F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bottle animation";
+			productName = "Bottle animation";
+			productReference = 247CF44E2583F008004ED5F3 /* Bottle animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		247CF4632583F00C004ED5F3 /* Bottle animationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247CF4702583F00C004ED5F3 /* Build configuration list for PBXNativeTarget "Bottle animationTests" */;
+			buildPhases = (
+				247CF4602583F00C004ED5F3 /* Sources */,
+				247CF4612583F00C004ED5F3 /* Frameworks */,
+				247CF4622583F00C004ED5F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				247CF4662583F00C004ED5F3 /* PBXTargetDependency */,
+			);
+			name = "Bottle animationTests";
+			productName = "Bottle animationTests";
+			productReference = 247CF4642583F00C004ED5F3 /* Bottle animationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		247CF4462583F008004ED5F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = MAK;
+				TargetAttributes = {
+					247CF44D2583F008004ED5F3 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					247CF4632583F00C004ED5F3 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 247CF44D2583F008004ED5F3;
+					};
+				};
+			};
+			buildConfigurationList = 247CF4492583F008004ED5F3 /* Build configuration list for PBXProject "Bottle animation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 247CF4452583F008004ED5F3;
+			productRefGroup = 247CF44F2583F008004ED5F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				247CF44D2583F008004ED5F3 /* Bottle animation */,
+				247CF4632583F00C004ED5F3 /* Bottle animationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		247CF44C2583F008004ED5F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247CF45E2583F00B004ED5F3 /* LaunchScreen.storyboard in Resources */,
+				247CF45B2583F00B004ED5F3 /* Assets.xcassets in Resources */,
+				247CF4592583F008004ED5F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247CF4622583F00C004ED5F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		247CF44A2583F008004ED5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247CF4562583F008004ED5F3 /* ViewController.swift in Sources */,
+				247CF4522583F008004ED5F3 /* AppDelegate.swift in Sources */,
+				247CF4542583F008004ED5F3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247CF4602583F00C004ED5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247CF4692583F00C004ED5F3 /* Bottle_animationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		247CF4662583F00C004ED5F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 247CF44D2583F008004ED5F3 /* Bottle animation */;
+			targetProxy = 247CF4652583F00C004ED5F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		247CF4572583F008004ED5F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247CF4582583F008004ED5F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		247CF45C2583F00B004ED5F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247CF45D2583F00B004ED5F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		247CF46B2583F00C004ED5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		247CF46C2583F00C004ED5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		247CF46E2583F00C004ED5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW46Y7Q3C2;
+				INFOPLIST_FILE = "Bottle animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MyShopGroup.com.Bottle-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		247CF46F2583F00C004ED5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW46Y7Q3C2;
+				INFOPLIST_FILE = "Bottle animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MyShopGroup.com.Bottle-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		247CF4712583F00C004ED5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW46Y7Q3C2;
+				INFOPLIST_FILE = "Bottle animationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MyShopGroup.com.Bottle-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bottle animation.app/Bottle animation";
+			};
+			name = Debug;
+		};
+		247CF4722583F00C004ED5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW46Y7Q3C2;
+				INFOPLIST_FILE = "Bottle animationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MyShopGroup.com.Bottle-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bottle animation.app/Bottle animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247CF4492583F008004ED5F3 /* Build configuration list for PBXProject "Bottle animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247CF46B2583F00C004ED5F3 /* Debug */,
+				247CF46C2583F00C004ED5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247CF46D2583F00C004ED5F3 /* Build configuration list for PBXNativeTarget "Bottle animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247CF46E2583F00C004ED5F3 /* Debug */,
+				247CF46F2583F00C004ED5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247CF4702583F00C004ED5F3 /* Build configuration list for PBXNativeTarget "Bottle animationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247CF4712583F00C004ED5F3 /* Debug */,
+				247CF4722583F00C004ED5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 247CF4462583F008004ED5F3 /* Project object */;
+}
