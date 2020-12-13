@@ -14,6 +14,7 @@
 		247CF45B2583F00B004ED5F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247CF45A2583F00B004ED5F3 /* Assets.xcassets */; };
 		247CF45E2583F00B004ED5F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247CF45C2583F00B004ED5F3 /* LaunchScreen.storyboard */; };
 		247CF4692583F00C004ED5F3 /* Bottle_animationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247CF4682583F00C004ED5F3 /* Bottle_animationTests.swift */; };
+		247CF476258413C9004ED5F3 /* RadioWaveAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247CF475258413C9004ED5F3 /* RadioWaveAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		247CF4642583F00C004ED5F3 /* Bottle animationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bottle animationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		247CF4682583F00C004ED5F3 /* Bottle_animationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottle_animationTests.swift; sourceTree = "<group>"; };
 		247CF46A2583F00C004ED5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247CF475258413C9004ED5F3 /* RadioWaveAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioWaveAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				247CF45A2583F00B004ED5F3 /* Assets.xcassets */,
 				247CF45C2583F00B004ED5F3 /* LaunchScreen.storyboard */,
 				247CF45F2583F00B004ED5F3 /* Info.plist */,
+				247CF475258413C9004ED5F3 /* RadioWaveAnimationView.swift */,
 			);
 			path = "Bottle animation";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				247CF476258413C9004ED5F3 /* RadioWaveAnimationView.swift in Sources */,
 				247CF4562583F008004ED5F3 /* ViewController.swift in Sources */,
 				247CF4522583F008004ED5F3 /* AppDelegate.swift in Sources */,
 				247CF4542583F008004ED5F3 /* SceneDelegate.swift in Sources */,
